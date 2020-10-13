@@ -31,6 +31,11 @@ aside footer p {
     margin-top: 1.0rem;
 }
 
+#mapid {
+    width: 100%;
+    height: 100%;
+}
+
 a.create-orphanage {
     position: absolute;
     right: 4rem;
@@ -51,4 +56,10 @@ a.create-orphanage {
 
 a.create-orphanage:hover {
     background: #17D6EB;
+}
+
+.leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 17.2868px 27.65px 41.48px rgba(23, 142, 166, 0.16);
+    border-radius: 20px;
 }
